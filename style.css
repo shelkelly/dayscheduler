@@ -57,19 +57,6 @@ textarea{
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
 li {
   height: 100px;
   margin-top: 5px;
@@ -81,8 +68,9 @@ li {
   line-height: 20px;
 }
 
-button {
-  float: right;
+.save {
+  position: absolute;
+  left: 45%
 }
 
 textarea {
@@ -91,4 +79,16 @@ textarea {
   width: 600px;
   background: rgb(230, 205, 205);
   border: 1px, solid, black;
+}
+
+input {
+  position: absolute;
+  left: 30%
+}
+
+.area {
+  height:90px;
+  background:lightpink;
+  width: 40%;
+  float: right;
 }
