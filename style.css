@@ -57,7 +57,7 @@ textarea{
   color: white;
 }
 
-li {
+.timeLI {
   height: 100px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -91,4 +91,10 @@ input {
   background:lightpink;
   width: 40%;
   float: right;
+  overflow: auto;
+}
+
+.todoItem {
+  margin: 5px;
+  padding: 5px;
 }
